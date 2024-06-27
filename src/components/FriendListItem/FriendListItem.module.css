@@ -1,0 +1,19 @@
+.avatar {
+    height: 90px;
+    width: 90px;
+}
+
+.name {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.online {
+    font-weight: 500;
+     color: #2d9226;
+}
+
+.offline {
+    color: #fc3e42;
+    font-weight: 500;
+}

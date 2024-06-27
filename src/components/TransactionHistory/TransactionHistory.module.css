@@ -1,0 +1,27 @@
+table.transactions {
+    margin: 0 auto;
+    width: 100%;
+    border: 2px solid black;
+    border-collapse: collapse;
+    thead {
+        background-color: #2a2a2a;
+        color: white;
+        font-size: 18px;
+        height: 40px;
+        th {
+            border: 2px solid black;
+        }
+    }
+    tbody {
+        tr {
+            height: 40px;
+            border: 2px solid black;
+            font-size: 18px;
+            td {
+                border: 2px solid black;
+            }
+        }
+        tr:nth-child(odd) { background: #fff; }
+        tr:nth-child(even) { background: #d3d3d3; }
+    }
+}
